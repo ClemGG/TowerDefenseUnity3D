@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1335784147228622}
+  m_IsPrefabParent: 1
+--- !u!1 &1335784147228622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4633727742890554}
+  - component: {fileID: 114646800223887788}
+  - component: {fileID: 114937910958967286}
+  - component: {fileID: 114438434160975834}
+  - component: {fileID: 114348474582945258}
+  - component: {fileID: 114162394545779866}
+  - component: {fileID: 114910511086389680}
+  - component: {fileID: 82991551352719208}
+  m_Layer: 0
+  m_Name: GameLogic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4633727742890554
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335784147228622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82991551352719208
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335784147228622}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 869ef13539ab03948881f22a27b6469c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114162394545779866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335784147228622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cea907bb0b141074c9241a97473fe599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverUI: {fileID: 0}
+  animGameOverUi: {fileID: 0}
+  delayBeforeGameOverAnim: 1
+  isGameOver: 0
+  animPauseUi: {fileID: 0}
+  isGamePaused: 0
+  pauseMenu: {fileID: 0}
+  touchePause: 112
+  UisToDisable:
+  - {fileID: 0}
+  winUI: {fileID: 0}
+  animWinUI: {fileID: 0}
+  delayBeforeWinAnim: 0.5
+  isGameWon: 0
+--- !u!114 &114348474582945258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335784147228622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1935a1ec288d8c848ad9521c5b1f37be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infiniteHealthAndMoney: 0
+  currentMoney: 0
+  startMoney: 150
+  currentHealth: 0
+  startHealth: 500
+  moneyText: {fileID: 0}
+  healthSlider: {fileID: 0}
+  endNode: {fileID: 0}
+  prefabsToSpawnOnHit:
+  - {fileID: 4000011693693590, guid: 96730f8640590934eacb6f860058e7f9, type: 2}
+  prefabsToSpawnOnDeath:
+  - {fileID: 4133841506766296, guid: 81e0e455c3ee1dc48af8c74cf0f76961, type: 2}
+--- !u!114 &114438434160975834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335784147228622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d21532ec053ada24fadfb34b04da23a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeUI: {fileID: 0}
+  prefabsInstantiableWhenNotPowered:
+  - Generateur
+  - Atelier
+  currentWorkshopLevel: 0
+--- !u!114 &114646800223887788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335784147228622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda8c90ff48bd1c478c6c139bfeb93db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawners: {fileID: 0}
+  countdownText: {fileID: 0}
+  WaveIDText: {fileID: 0}
+  buttonSpawnnextWave: {fileID: 0}
+  delayBetweenWaves: 50
+  moneyCountdownCoef: 0
+  countdown: 30
+  startColor: {r: 1, g: 0.3931034, b: 0, a: 1}
+  endColor: {r: 0.19852942, g: 0, b: 0, a: 1}
+--- !u!114 &114910511086389680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335784147228622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d42d3b8234deb4c8b864771ace7ec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretsInScene: []
+  buildingsInScene: []
+  isEventBlizzard: 0
+  isEventMagma: 0
+--- !u!114 &114937910958967286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335784147228622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717caa38247641d4db82ab842fcee2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: EnemyTerrestre
+    prefab: {fileID: 1058467654098702, guid: 3dcf3ff8e9f47d1418faad56a1549119, type: 2}
+    size: 50
+  - tag: EnemyVolant
+    prefab: {fileID: 1857293385369604, guid: b5f0c6d251ae5354ea0e48d2928a0a75, type: 2}
+    size: 50
+  - tag: EnemyMarin
+    prefab: {fileID: 1066107765036716, guid: 314e4671ba573e54da4d058e5fa417d5, type: 2}
+    size: 50
+  - tag: Jeep
+    prefab: {fileID: 1478646268199950, guid: fad7a6e96e9748141bcc9918a0eab743, type: 2}
+    size: 100
+  - tag: Helico
+    prefab: {fileID: 1572851959626212, guid: d027a69366d00a045a546ce579211b6e, type: 2}
+    size: 100
+  - tag: Camion
+    prefab: {fileID: 1243033865890402, guid: 6e74f1b1da2443548ad5b2551cb49d30, type: 2}
+    size: 100
+  - tag: Buggy
+    prefab: {fileID: 1892652912146780, guid: 3caed240427ea994ea16b867c3a4fa45, type: 2}
+    size: 100
+  parent: {fileID: 0}

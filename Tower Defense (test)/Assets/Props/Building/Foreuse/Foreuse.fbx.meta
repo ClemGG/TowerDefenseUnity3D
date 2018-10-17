@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 754d9cb46dc9081488f7a106a3dadb4c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: axe_low
+    100002: boule_low
+    100004: femur_low
+    100006: femur_low 1
+    100008: femur_low 2
+    100010: //RootNode
+    100012: gros_low
+    100014: grosaxe_low
+    100016: Pate1_low
+    100018: Pate2_low
+    100020: Pate3_low
+    100022: pied_low
+    100024: pied_low 1
+    100026: pied_low 2
+    100028: socle_low
+    100030: spirale1_low
+    100032: spirale2_low
+    100034: spirale3_low
+    100036: spirale_low
+    100038: tete_low
+    100040: tibia_low
+    100042: tibia_low 1
+    100044: tibia_low 2
+    100046: toupie_low
+    100048: Tour_low
+    100050: tube_low
+    100052: vis_low
+    400000: axe_low
+    400002: boule_low
+    400004: femur_low
+    400006: femur_low 1
+    400008: femur_low 2
+    400010: //RootNode
+    400012: gros_low
+    400014: grosaxe_low
+    400016: Pate1_low
+    400018: Pate2_low
+    400020: Pate3_low
+    400022: pied_low
+    400024: pied_low 1
+    400026: pied_low 2
+    400028: socle_low
+    400030: spirale1_low
+    400032: spirale2_low
+    400034: spirale3_low
+    400036: spirale_low
+    400038: tete_low
+    400040: tibia_low
+    400042: tibia_low 1
+    400044: tibia_low 2
+    400046: toupie_low
+    400048: Tour_low
+    400050: tube_low
+    400052: vis_low
+    2100000: lambert1
+    2300000: axe_low
+    2300002: boule_low
+    2300004: femur_low
+    2300006: femur_low 1
+    2300008: femur_low 2
+    2300010: gros_low
+    2300012: grosaxe_low
+    2300014: pied_low
+    2300016: pied_low 1
+    2300018: pied_low 2
+    2300020: socle_low
+    2300022: spirale1_low
+    2300024: spirale2_low
+    2300026: spirale3_low
+    2300028: spirale_low
+    2300030: tete_low
+    2300032: tibia_low
+    2300034: tibia_low 1
+    2300036: tibia_low 2
+    2300038: tube_low
+    2300040: vis_low
+    3300000: axe_low
+    3300002: boule_low
+    3300004: femur_low
+    3300006: femur_low 1
+    3300008: femur_low 2
+    3300010: gros_low
+    3300012: grosaxe_low
+    3300014: pied_low
+    3300016: pied_low 1
+    3300018: pied_low 2
+    3300020: socle_low
+    3300022: spirale1_low
+    3300024: spirale2_low
+    3300026: spirale3_low
+    3300028: spirale_low
+    3300030: tete_low
+    3300032: tibia_low
+    3300034: tibia_low 1
+    3300036: tibia_low 2
+    3300038: tube_low
+    3300040: vis_low
+    4300000: tube_low
+    4300002: axe_low
+    4300004: gros_low
+    4300006: boule_low
+    4300008: socle_low
+    4300010: vis_low
+    4300012: grosaxe_low
+    4300014: spirale_low
+    4300016: spirale1_low
+    4300018: spirale2_low
+    4300020: tete_low
+    4300022: spirale3_low
+    4300024: tibia_low
+    4300026: pied_low
+    4300028: femur_low
+    4300030: tibia_low
+    4300032: pied_low
+    4300034: femur_low
+    4300036: tibia_low
+    4300038: pied_low
+    4300040: femur_low
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: ec78240542f9d8f40a7ab35f8d960681, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
