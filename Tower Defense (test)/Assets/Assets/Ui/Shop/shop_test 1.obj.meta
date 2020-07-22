@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: 124de285638cf2c4192aca1421ee40f6
+guid: c4871654d36c7c24cbe1c3956ff65cfe
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: g_low_pCube4_low_pCube4
     100002: g_low_pCube7_low_pCube7
@@ -122,6 +122,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -141,7 +143,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
