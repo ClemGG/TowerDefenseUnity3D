@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Menu_Snow_Minigun
   m_Shader: {fileID: 4800000, guid: 58e30a92b211cf046a548f0f298d7861, type: 3}

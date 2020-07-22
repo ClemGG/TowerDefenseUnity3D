@@ -12,6 +12,7 @@ public class Tirer : MonoBehaviour{
     public Transform bulletPrefab;
     public Transform[] spawnPoints;
     [HideInInspector] TurretIA ia;
+    [HideInInspector] TurretActivation activation;
     [HideInInspector] public Unit_Stats unitStats;
 
     private float timer = 0f;
@@ -23,6 +24,7 @@ public class Tirer : MonoBehaviour{
     void Start () {
         ia = GetComponent<TurretIA>();
         unitStats = GetComponent<Unit_Stats>();
+        activation = GetComponent<TurretActivation>();
         
 	}
 	
@@ -81,6 +83,9 @@ public class Tirer : MonoBehaviour{
 
     private void Shoot()
     {
+        if (activation.isNotBuiltYet)
+            return;
+
         unitStats.PlaySound(true);
 
 

@@ -5,6 +5,7 @@ using UnityEngine;
 public class TurretIA : MonoBehaviour {
 
     private Tirer tirerScript;
+    private TurretActivation activation;
     public Unit_Stats unitStats;
     [HideInInspector] public Transform target;
     public Transform partToRotate;
@@ -23,6 +24,7 @@ public class TurretIA : MonoBehaviour {
         InvokeRepeating("Update_Target", 0f, .07f);
         tirerScript = GetComponent<Tirer>();
         unitStats = GetComponent<Unit_Stats>();
+        activation = GetComponent<TurretActivation>();
 	}
 
 
@@ -91,6 +93,10 @@ public class TurretIA : MonoBehaviour {
 
     private void Update_Rotation()
     {
+
+        if (activation.isNotBuiltYet)
+            return;
+
         if (target != null)
         {
             //Vector3 direction = target.position - transform.position;

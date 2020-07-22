@@ -78,6 +78,9 @@ public class Unit_Stats : MonoBehaviour {
             hpBar.SetActive(false);
             Update_HealthBar_UI();
         }
+
+        if (isWorkshop)
+            isTargetForEnemies = false;
     }
 
 
